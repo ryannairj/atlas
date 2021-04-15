@@ -1,4 +1,15 @@
 ---
 label: Post template
 hide_body: false
-fields: []
+fields:
+- name: date
+  type: datetime
+  label: Date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+pages:
+- content/Post2.md
